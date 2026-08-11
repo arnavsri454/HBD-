@@ -1,0 +1,68 @@
+function showLetterSection(){
+
+    document.getElementById("fireworksSection")
+        .style.display = "none";
+
+    const section =
+        document.getElementById("letterSection");
+
+    section.style.display = "flex";
+
+    const content =
+        document.getElementById("letterContent");
+
+    content.innerHTML = `
+
+        <div class="letter-paper">
+
+            <h2>To Anvesha ❤️</h2>
+
+            <p>
+                Dear Anvesha,
+                <br><br>
+
+                Today is your day.
+
+                And before anything else,
+                I just want you to know how
+                grateful I am that you are
+                part of my life.
+
+                <br><br>
+
+                Thank you for your care.
+                Thank you for your support.
+                Thank you for understanding me
+                even when I cannot explain myself.
+
+                <br><br>
+
+                I know life will not always be easy.
+
+                But I hope every challenge
+                makes you stronger,
+                every dream comes closer,
+                and every year brings you
+                more happiness than the last.
+
+                <br><br>
+
+                Happy Birthday ❤️
+
+                <br><br>
+
+                — Arnav
+            </p>
+
+            <button id="letterContinue">
+                Continue ➜
+            </button>
+
+        </div>
+
+    `;
+
+    document
+        .getElementById("letterContinue")
+        .addEventListener("click", showVoiceSection);
+}

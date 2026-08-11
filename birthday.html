@@ -1,0 +1,170 @@
+
+<!DOCTYPE html>
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Playfair+Display:wght@400;500;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet"><meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Loader -->
+<section id="loader">
+    <h1>For Anvesha</h1>
+    <p>12 August</p>
+    <span>Made with ❤️ by Arnav</span>
+</section>
+
+<!-- Envelope -->
+<section id="envelopeSection" class="hidden">
+
+    <div class="envelope" id="envelope">
+
+        <div class="front">
+            <h1>💌</h1>
+            <p>For Anvesha</p>
+            <small>Tap to Open</small>
+        </div>
+
+        <div class="inside">
+            <h2>Happy Birthday Anvesha ❤️</h2>
+
+            <p>
+                Before today ends,<br>
+                there are a few things<br>
+                I wanted to tell you.
+            </p>
+
+            <button id="beginBtn">
+                Begin ✨
+            </button>
+        </div>
+
+    </div>
+
+</section>
+<section id="storySection" style="display:none;">
+
+    <div class="story-text" id="storyText"></div>
+
+</section>
+<section id="loveSection" class="hidden">
+
+    <div class="love-card">
+
+        <h1>Things I Love About You ❤️</h1>
+
+        <div class="love-text" id="loveText"></div>
+
+    </div>
+
+</section>
+<section id="wishSection">
+
+    <div id="wishContent"></div>
+
+</section>
+<section id="anniversarySection">
+
+    <div id="anniversaryContent"></div>
+
+</section>
+<section id="chalakiSection">
+
+    <div id="chalakiContent"></div>
+
+</section>
+<section id="cakeIntroSection">
+
+    <div id="cakeIntroContent"></div>
+
+</section>
+<section id="cakeSection">
+
+    <div class="cake-wrapper">
+
+        <h1 class="birthday-title">
+            Happy Birthday
+            <br>
+            Anvesha ❤️
+        </h1>
+
+        <div class="cake">
+
+            <div class="icing"></div>
+
+            <div class="candle">
+                <div class="flame" id="flame"></div>
+            </div>
+
+        </div>
+
+        <p class="wish-text">
+            Make a wish, my love ❤️
+        </p>
+
+        <p id="cakeInstruction">
+            Blow into your microphone 🌬️
+        </p>
+
+        <p id="wishDone">
+            Your wish has been sent to the stars ✨
+        </p>
+
+    </div>
+
+    <button onclick="askMic()">
+    Test Microphone
+</button>
+</section>
+<section id="fireworksSection">
+
+    <canvas id="fireworksCanvas"></canvas>
+
+    <div class="fireworks-content">
+
+        <h1 id="fireworksTitle">
+            Happy Birthday Anvesha ❤️
+        </h1>
+
+        <p id="fireworksSub">
+            I still have something more for you...
+        </p>
+
+        <button type="button" id="voiceBtn">
+    One More Thing ❤️
+</button>
+    </div>
+    
+
+</section>
+<section id="letterSection">
+
+    <div id="letterContent"></div>
+
+</section>
+<section id="voiceSection"  style="display:none;">
+
+    <div id="voiceContent"></div>
+
+</section>
+<section id="ukuleleSection" style="display:none;">
+
+    <div id="ukuleleContent"></div>
+
+</section>
+<section id="giftSection" style="display:none;">
+
+    <div id="giftContent"></div>
+
+</section>
+<link rel="stylesheet" href="gift.css">
+<script src="gift.js"></script>
+<script src="script.js"></script>
+
+<script src="finale.js"></script>
+<script src="password.js"></script>
+</body>
+</html>

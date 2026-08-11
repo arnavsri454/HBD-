@@ -1,0 +1,230 @@
+#giftSection{
+
+    display:none;
+
+    min-height:100vh;
+
+    justify-content:center;
+
+    align-items:center;
+
+    flex-direction:column;
+
+    background:#111;
+
+    color:white;
+
+    text-align:center;
+
+}
+.gift-container{
+
+    margin:50px auto;
+
+}
+.gift-container{
+
+    margin:50px auto;
+
+}
+.gift-body{
+
+    position:absolute;
+
+    bottom:0;
+
+    width:220px;
+
+    height:170px;
+
+    background:#ff5f93;
+
+    border-radius:12px;
+
+}
+.gift-lid{
+
+    position:absolute;
+
+    top:0;
+
+    width:220px;
+
+    height:55px;
+
+    background:#ff7ea8;
+
+    border-radius:12px;
+
+    transition:1s;
+
+    z-index:10;
+
+}
+.gift-ribbon-v{
+
+    position:absolute;
+
+    left:95px;
+
+    width:30px;
+
+    height:220px;
+
+    background:white;
+
+    z-index:20;
+
+}
+.gift-ribbon-h{
+
+    position:absolute;
+
+    top:30px;
+
+    width:220px;
+
+    height:25px;
+
+    background:white;
+
+    z-index:20;
+
+}
+.gift-box.opened .gift-lid{
+
+    transform:
+
+        translateY(-120px)
+
+        rotate(-15deg);
+
+}
+@keyframes floatGift{
+
+    0%{
+
+        transform:translateY(0);
+
+    }
+
+    50%{
+
+        transform:translateY(-12px);
+
+    }
+
+    100%{
+
+        transform:translateY(0);
+
+    }
+
+}
+/* =========================
+   FINALE
+========================= */
+
+#finalSection {
+
+    display: none;
+
+    min-height: 100vh;
+    width: 100%;
+
+    justify-content: center;
+    align-items: center;
+
+    background: #111;
+
+    color: white;
+
+    text-align: center;
+
+    overflow: hidden;
+}
+
+.finale-content {
+
+    width: min(800px, 90vw);
+
+    padding: 40px 20px;
+}
+
+.finale-heart {
+
+    font-size: 55px;
+
+    margin-bottom: 20px;
+
+    animation: finaleHeart 2s ease-in-out infinite;
+}
+
+.finale-title {
+
+    font-family: "Great Vibes", cursive;
+
+    font-size: clamp(42px, 7vw, 70px);
+
+    margin-bottom: 35px;
+}
+
+.finale-line {
+
+    font-family: "Poppins", sans-serif;
+
+    font-size: clamp(18px, 3vw, 24px);
+
+    margin: 15px 0;
+
+    opacity: 0;
+
+    transform: translateY(15px);
+
+    transition:
+        opacity 0.8s ease,
+        transform 0.8s ease;
+}
+
+.finale-line.show {
+
+    opacity: 1;
+
+    transform: translateY(0);
+}
+
+.finale-love {
+
+    margin-top: 45px;
+
+    font-family: "Great Vibes", cursive;
+
+    font-size: clamp(42px, 7vw, 65px);
+
+    animation: finaleAppear 1.5s ease forwards;
+}
+
+@keyframes finaleHeart {
+
+    0%,
+    100% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.18);
+    }
+}
+
+@keyframes finaleAppear {
+
+    from {
+        opacity: 0;
+        transform: scale(0.8);
+    }
+
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
