@@ -28,32 +28,32 @@ const DEV_MODE = true;
 
 const scenes = [
     "Hi",
-    //"Too Formal 😂",
-    //"Hii Anvesha ❤️",
-    //"Today is 12 August.",
-    //"Which means...",
-    //"It's your birthday ✨",
-    //"Your first birthday with me.",
-    //"And I wanted this one to be a little extra special.",
-    //"And I wanted to do something a little different this year.",
-    //"I could have just sent a message.",
-    //"Or a paragraph.",
-    //"Or maybe 20 paragraphs.",
-    //"(you know me 😂)",
-    //"But some people deserve a little more ",
-    //"Not because websites are special",
-    //"But because you are.",
-    //"So before we celebrate...",
-    //"There are a few things I want to tell you."
+    "Too Formal 😂",
+    "Hii Anvesha ❤️",
+    "Today is 12 August.",
+   "Which means...",
+    "It's your birthday ✨",
+    "Your first birthday with me.",
+    "And I wanted this one to be a little extra special.",
+    "And I wanted to do something a little different this year.",
+    "I could have just sent a message.",
+    "Or a paragraph.",
+    "Or maybe 20 paragraphs.",
+    "(you know me 😂)",
+    "But some people deserve a little more ",
+    "Not because websites are special",
+    "But because you are.",
+    "So before we celebrate...",
+    "There are a few things I want to tell you."
 ];
 
 const loveMessages = [
-    //"Your care ❤️",
-    //"Your understanding 🤍",
-    //"The way you support me 🌸",
-    //"Your simplicity ✨",
-    //"Your love 💕",
-    //"And honestly...",
+    "Your care ❤️",
+    "Your understanding 🤍",
+    "The way you support me 🌸",
+    "Your simplicity ✨",
+    "Your love 💕",
+    "And honestly...",
     "Everything about you ❤️"
 ];
 
