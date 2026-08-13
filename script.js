@@ -15,16 +15,16 @@ const loveText = document.getElementById("loveText");
 
 const DEV_MODE = true;
 
-//function devStart(fn){
+function devStart(fn){
 
- //   loader.style.display = "none";
+   loader.style.display = "none";
 
-  //  envelopeSection.style.display = "none";
+   envelopeSection.style.display = "none";
 
-  //  fn();
+    fn();
 
-//}
-//devStart(showVoiceSection());
+}
+devStart(showVoiceSection());
 
 const scenes = [
     "Hi",
