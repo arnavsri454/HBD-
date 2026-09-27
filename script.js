@@ -13,18 +13,18 @@ const loveText = document.getElementById("loveText");
 // DEV MODE
 // ===========================
 
-const DEV_MODE = true;
+//const DEV_MODE = true;
 
-function devStart(fn){
+//function devStart(fn){
+//
+  // loader.style.display = "none";
 
-   loader.style.display = "none";
+  // envelopeSection.style.display = "none";
+//
+  //  fn();
 
-   envelopeSection.style.display = "none";
-
-    fn();
-
-}
-devStart(showVoiceSection());
+//}
+//devStart(showVoiceSection());
 
 const scenes = [
     "Hi",
